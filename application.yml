@@ -1,1 +1,8 @@
-name="deepak gupta"
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    prefer-ip-address: true
+   
